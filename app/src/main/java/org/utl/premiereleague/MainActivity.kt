@@ -168,8 +168,8 @@ fun TablaPosiciones_Screen(navController: NavHostController, vm: TablaPosiciones
 
     val equipos = vm.lista
 
-    var nombre = remember { mutableStateOf("") }
-    var puntos = remember { mutableStateOf("") }
+    val nombre = remember { mutableStateOf("") }
+    val puntos = remember { mutableStateOf("") }
 
     Column(modifier = Modifier.padding(16.dp)) {
 
@@ -238,8 +238,8 @@ fun TablaGoleadores_Screen(navController: NavHostController, vm: GoleadoresViewM
 
     val goleadores = vm.lista
 
-    var jugador = remember { mutableStateOf("") }
-    var goles = remember { mutableStateOf("") }
+    val jugador = remember { mutableStateOf("") }
+    val goles = remember { mutableStateOf("") }
 
     Column(modifier = Modifier.padding(16.dp)) {
 
